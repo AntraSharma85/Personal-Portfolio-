@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">
+        Antra<span>Sharma</span>
+    </a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contacts</a>
+    </div>
+    <a href="#contact">
+    <button class="gradient-btn">Contact Me</button></a>
+</header>
+
+<!--home-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi,Its's<span>Antra</span></h1>
+        <h3>
+            I'm a <span>Frontend Developer</span> 
+            </h3>
+            <p>
+                B.Tech(CSE) student in Buddha Institute of Technology, learning Web Development and to build pratical knowledge I have built many projects.
+            </p>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-github"></i>
+                    </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+    </div> 
+
+    <div class="home-img">
+        <img src="Antra.jpg" alt="">
+    </div>
+</section>
+
+<!--about-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="antra[1].jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2>About<span> Me</span></h2>
+        <p>Currently I'm pursuing B.Tech(CSE) at Buddha Institute of Technology,Gida.I have completed my 10th from Pragyan Public School and 12th from Springer Public School.I like innovating ideas for social issues.I have built many projects to gain practical knowledge of html,css,and javascript.
+            To view my projects visit Project section.</p>
+            <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+
+<!--services-->
+<section class="services" id="services">
+    <h2 class="heading">Services</h2>
+    <div class="services-container">
+        <div class="services-box">
+            <div class="services-info">
+                <i class="bx bx-code"></i>
+                <h4>Frontend Developer</h4>
+                <p>I have learn HTML, CSS and Javascript.After this I will learn Frameworks of frontend and as well as backened.</p>
+            </div>
+        </div>
+
+        <div class="services-box">                       
+            <div class="services-info">
+                <i class="bx bx-code-curly"></i>
+                <h4>Backend Developer</h4>
+                <p>I have learn HTML, CSS and Javascript.After this I will learn Frameworks of frontend and as well as backened.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--projects-->
+<section class="project" id="project">
+    <h2 class="heading">Projects</h2>
+    <div class="projects-box">
+        <div class="project-card">
+            <img src="WasteConnect.PNG" alt="">
+            <h3>Project 1</h3>
+            <p>WasteConnect is a smart waste management and reportig system, where people can send a pickup request for any kind of waste.According to waste type user get rewards.</p>
+            <div class="btn">Review Project</div>
+        </div>
+        <div class="project-card">
+            <img src="reg.PNG" alt="">
+            <h3>Project 2</h3>
+            <p>It is a registration page build using basic HTML and CSS. It contains all the requirements that a registration page required for any website. </p>
+            <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+            <img src="calculator.PNG" alt="">
+            <h3>Project 3</h3>
+            <p>It is a basic calculator build using basic HTML and CSS. It can perform all basic arithmetic operations. </p>
+            <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+            <img src="bat & ball.PNG" alt="">
+            <h3>Project 4</h3>
+            <p>It is a bat and ball game , built using basics concept of Javascript.</p>
+            <div class="btn">Review Project</div>
+        </div>
+    </div>
+</section>
+
+<!--contact-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact<span> Me</span></h2>
+    <form action="#">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone number">
+                <input type="text" placeholder="Subject">
+            </div>
+        </div>
+        <div class="input-group-2">
+            <textarea ame="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+    </form>
+</section>
+
+<!--footer-->
+<footer class="footer">
+    <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-github"></i>
+                    </a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+
+                </li>
+            </ul>
+            <p class="copyright">
+                &copy Antra Sharma | All Rights Reserved
+            </p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
